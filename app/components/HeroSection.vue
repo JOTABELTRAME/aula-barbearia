@@ -25,11 +25,11 @@ import BaseButton from '~/components/BaseButton.vue'
 
         <!-- Botões de Ação utilizando o componente reutilizável BaseButton -->
         <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4 pt-2">
-          <BaseButton variant="primary">
+          <BaseButton variant="primary" href="#contato">
             Agendar Meu Horário
           </BaseButton>
           
-          <BaseButton variant="secondary">
+          <BaseButton variant="secondary" href="#servicos">
             Ver Serviços
           </BaseButton>
         </div>
