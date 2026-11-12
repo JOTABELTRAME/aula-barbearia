@@ -2,6 +2,7 @@
 import HeroSection from '~/components/HeroSection.vue'
 import AboutSection from '~/components/AboutSection.vue'
 import ServicesSection from '~/components/ServicesSection.vue'
+import ContactSection from '~/components/ContactSection.vue'
 </script>
 
 <template>
@@ -14,5 +15,8 @@ import ServicesSection from '~/components/ServicesSection.vue'
 
     <!-- 3. Seção de Serviços e Cortes -->
     <ServicesSection />
+
+    <!-- 4. Seção de Contato & Localização -->
+    <ContactSection />
   </main>
 </template>
